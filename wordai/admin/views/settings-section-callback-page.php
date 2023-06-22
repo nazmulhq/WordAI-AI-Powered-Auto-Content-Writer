@@ -1,0 +1,1 @@
+<h4><?php echo sprintf( __('WordAI - Your WordPress auto content writing solution. You need first to <a href="%s" target="_blank">','wordai-auto-content-writing'), 'https://platform.openai.com/account/api-keys');?> <strong><?php echo __('get your OpenAI API key.', 'wordai-auto-content-writing');?></strong></a></h4>

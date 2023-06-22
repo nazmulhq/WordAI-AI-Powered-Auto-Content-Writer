@@ -1,0 +1,196 @@
+.metabox-content-writer-btn i {
+	vertical-align: text-top;
+	color: white;
+	box-shadow: 1px 1px 12px #FFFFFF;
+}
+
+.metabox-content-writer-btn {
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #2271b1;
+	min-height: 40px;
+	color: white;
+	font-weight: bold;	
+}
+
+button.button-primary.sc-wordai-write-titles-btn, button.button-primary.sc-wordai-write-content-btn, button.button-primary.sc-wordai-generate-image-btn, button.button-primary.sc-wordai-write-suggest-titles-btn, button.button-secondary.sc-wordai-suggested-title-update-btn {
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #2271b1;
+	background-color: black;
+	color: white;
+	font-weight: 700;
+}
+
+/*.ui-dialog { z-index: 1000 !important ;}*/
+
+.ui-dialog.metabox-button-click-popup-dialog-class {
+	z-index: 100000;
+}
+
+#openai-settings-div-wrapper, #openai-content-settings-div-wrapper, #openai-image-settings-div-wrapper {
+	border: 1px #CBCBCB solid;
+	padding: 25px;
+	margin: 10px 20px 0 2px;
+}
+
+#openai-settings-div-wrapper table, #openai-content-settings-div-wrapper table, #openai-image-settings-div-wrapper table {
+	border-collapse: collapse;
+	width: 100%;
+}
+#openai-settings-div-wrapper tr, #openai-content-settings-div-wrapper tr, #openai-image-settings-div-wrapper tr {
+	border-bottom: 1px solid #A9A9A9;	
+}
+#openai-settings-div-wrapper td, #openai-content-settings-div-wrapper td, #openai-image-settings-div-wrapper td {
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+#openai-settings-div-wrapper table td {
+	vertical-align: bottom;
+}
+
+.success-msg {
+	color: green;
+	font-weight: 600;
+}
+.alert-msg {
+	color: cornflowerblue;
+	font-weight: 600;
+}
+.error-msg {
+	color: red;
+	font-weight: 600;
+}
+.alert-change {
+	color:blueviolet;
+}
+.openai-api-key-save-div-wrapper {
+	border: 1px #BFBFBF dotted;
+	padding: 25px;
+}
+
+#openai-content-settings-div-wrapper select {
+	width: 90%;
+}
+.sc-wordai-generated-title {
+	width: 650px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+}
+.sc-wordai-generated-content {
+	width: 650px;
+	height: 350px;
+	font-size: 16px;
+	background-color: white;
+	color: black;
+}
+
+
+/* Animation */
+.sc-wave {  
+  border-radius: 8px;	
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.wave {
+  width: 5px;
+  /*height: 100px;*/
+  height: 50px;	
+  background: linear-gradient(45deg, cyan, #fff);
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.save-image-to-gallery-icon {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+	color: green;
+	font-size: 30px;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/* Animation */
+
+/* Alert */
+.alert-remind {
+	color: #36BCD1;
+	font-weight: bold;
+}
+.alert-success {
+	color: green;
+}
+.alert-error {
+	color: red;
+}
+
+.sc-wordai-generated-image-wrapper {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	align-items: flex-start;
+	max-width: 650px;
+}
+
+.sc-wordai-generated-image-wrapper img {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 10px;
+}
+.sc-wordai-no-api-key-added-notice-wrapper {
+	background-color: azure;
+}
